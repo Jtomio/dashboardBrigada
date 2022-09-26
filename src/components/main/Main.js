@@ -49,10 +49,10 @@ const Main = () => {
           <div className="charts__left">
             <div className="charts__left__title">
               <div>
-                <h1>Daily Reports</h1>
-                <p>Ubatuba, São Paulo, BR</p>
+                <h1>Relatório mensal</h1>
+                <p>Joinville, Santa Catarina, BR</p>
               </div>
-              <i className="fa fa-usd"></i>
+              <i className="fa fa-area-chart"></i>
             </div>
             {/* <Chart /> */}
           </div>
@@ -60,28 +60,28 @@ const Main = () => {
           <div className="charts__right">
             <div className="charts__right__title">
               <div>
-                <h1>Daily Reports</h1>
-                <p>Ubatuba, São Paulo, BR</p>
+                <h1>Relatório mensal</h1>
+                <p>Aveiro, Portugal, PT</p>
               </div>
               <i className="fa fa-area-chart"></i>
             </div>
 
             <div className="charts__right__cards">
               <div className="card1">
-                <h1>Lucro</h1>
-                <h1>R$2500</h1>
+                <h1>Acid. Trabalho</h1>
+                <h1>250</h1>
               </div>
               <div className="card2">
-                <h1>Pagamentos</h1>
-                <h1>R$500</h1>
+                <h1>Ambiental</h1>
+                <h1>25</h1>
               </div>
               <div className="card3">
-                <h1>Custos</h1>
-                <h1>R$200</h1>
+                <h1>Princípio Incêndio</h1>
+                <h1>75</h1>
               </div>
               <div className="card4">
-                <h1>Dados</h1>
-                <h1>R$190</h1>
+                <h1>PTE</h1>
+                <h1>1190</h1>
               </div>
             </div>
           </div>
