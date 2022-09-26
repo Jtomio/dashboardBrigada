@@ -22,7 +22,7 @@ const Chart = () => {
   ];
 
   return (
-    <div className="{{ marginTop: '15px'}}">
+    <div className={{ marginTop: "15px" }}>
       <XYplot height={300} width={300}>
         <VerticalGridLines />
         <HorizontalGridLines />

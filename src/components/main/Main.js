@@ -16,7 +16,7 @@ const Main = () => {
 
         <div className="main__cards">
           <div className="card">
-            <i className="fa fa-light fa-square-person-confined"></i>
+            <i className="fa fa-light fa-square-person-confined text-lightblue"></i>
             <div className="card_inner">
               <p className="text-primary-p">Espaço Confinado</p>
               <span className="font-bold text-title">788</span>
@@ -37,7 +37,7 @@ const Main = () => {
             </div>
           </div>
           <div className="card">
-            <i className="fa fa-brands fa-hotjar text-yellow"></i>
+            <i className="fa fa-brands fa-hotjar text-red"></i>
             <div className="card_inner">
               <p className="text-primary-p">A quente</p>
               <span className="font-bold text-title">488</span>
@@ -76,12 +76,12 @@ const Main = () => {
                 <h1>25</h1>
               </div>
               <div className="card3">
-                <h1>Princípio Incêndio</h1>
-                <h1>75</h1>
+                <h1>PTEs</h1>
+                <h1>1775</h1>
               </div>
               <div className="card4">
-                <h1>PTE</h1>
-                <h1>1190</h1>
+                <h1>Sinistros</h1>
+                <h1>19</h1>
               </div>
             </div>
           </div>

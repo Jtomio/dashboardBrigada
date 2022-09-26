@@ -43,7 +43,7 @@ main {
   flex-direction: column;
   justify-content: space-around;
   height: 90px;
-  padding: 20px;
+  padding: 10px;
   border-radius: 5px;
   background-color: #fff;
   box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #fff;
@@ -57,8 +57,8 @@ main {
 
 .card_inner > span {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
 }
 
 .charts__left,

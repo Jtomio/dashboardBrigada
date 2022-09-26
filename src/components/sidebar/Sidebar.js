@@ -21,9 +21,9 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
           <i className="fa fa-minus-square"></i>
           <a href="#">Home</a>
         </div>
-        <h2>Usuário</h2>
+        <h2>demonstrativos</h2>
         <div className="sidebar__link">
-          <i className="fa fa-duotone fa-chart-simple"></i>
+          <i className="fas fa-thin fa-chart-simple"></i>
           <a href="#">Simulados</a>
         </div>
         <div className="sidebar__link">
