@@ -11,27 +11,27 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
         </div>
         <i
           onClick={() => closeSidebar()}
-          className="fas fa-times"
+          className="fa fa-minus-square"
           id="sidebarIcon"
           aria-hidden="true"
         ></i>
       </div>
       <div className="sidebar__menu">
         <div className="sidebar__link active_menu_link">
-          <i className="fas fa-minus-square"></i>
+          <i className="fa fa-minus-square"></i>
           <a href="#">Home</a>
         </div>
         <h2>Usuário</h2>
         <div className="sidebar__link">
-          <i className="fas fa-duotone fa-chart-simple"></i>
+          <i className="fa fa-duotone fa-chart-simple"></i>
           <a href="#">Simulados</a>
         </div>
         <div className="sidebar__link">
-          <i className="fas fa-duotone fa-chart-simple"></i>
+          <i className="fa fa-duotone fa-chart-simple"></i>
           <a href="#">PTE</a>
         </div>
         <div className="sidebar__link">
-          <i className="fas fa-light fa-chart-simple"></i>
+          <i className="fa fa-light fa-chart-simple"></i>
           <a href="#">Ocorrências</a>
         </div>
         <div className="sidebar__logout">
