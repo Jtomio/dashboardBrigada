@@ -1,5 +1,5 @@
 import hello from "../../img/Logo.png";
-import Chart from "../charts/Chart";
+// import Chart from "../charts/Chart";
 import "./Main.css";
 
 const Main = () => {
@@ -54,7 +54,7 @@ const Main = () => {
               </div>
               <i className="fa fa-usd"></i>
             </div>
-            <Chart />
+            {/* <Chart /> */}
           </div>
 
           <div className="charts__right">
