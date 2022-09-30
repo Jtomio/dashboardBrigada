@@ -1,39 +1,45 @@
-import "../../../node_modules/react-vis/dist/styles.css";
-import {
-  XYplot,
-  LineSeries,
-  XAxis,
-  YAxis,
-  VerticalGridLines,
-  HorizontalGridLines,
-} from "react-vis";
+let ctx = document.getElementsByClassName("line-chart");
 
-const Chart = () => {
-  const data = [
-    { x: 0, y: 8 },
-    { x: 1, y: 5 },
-    { x: 2, y: 4 },
-    { x: 3, y: 9 },
-    { x: 4, y: 1 },
-    { x: 5, y: 7 },
-    { x: 6, y: 6 },
-    { x: 7, y: 3 },
-    { x: 8, y: 2 },
-  ];
+//type, data e options
 
-  return (
-    <div className={{ marginTop: "15px" }}>
-      <XYplot height={300} width={300}>
-        <VerticalGridLines />
-        <HorizontalGridLines />
-        <XAxis />
-        <YAxis />
-        <LineSeries data={data} color="red" />
-        <LineSeries data={data} color="purple" />
-        <LineSeries data={data} color="yellow" />
-      </XYplot>
-    </div>
-  );
-};
+{
+  /* <canvas className="line-chart"></canvas>; */
+}
+
+let Chart = new Chart(ctx, {
+  type: "line",
+  data: {
+    labels: [
+      "Jan",
+      "Fev",
+      "Mar",
+      "Abr",
+      "Mai",
+      "Jun",
+      "Jul",
+      "Ago",
+      "Set",
+      "Out",
+      "Nov",
+      "Dez",
+    ],
+    datasets: [
+      {
+        label: "PTE - 2021",
+        data: [5, 10, 5, 14, 20, 15, 6, 14, 8, 12, 15, 5, 10],
+        borderWidth: 6,
+        boderColor: "rgba(77,166,253,0.85)",
+        backgroundColor: "transparent",
+      },
+      {
+        label: "PTE - 2022",
+        data: [15, 40, 15, 64, 30, 45, 36, 24, 38, 22, 75, 35, 20],
+        borderWidth: 6,
+        boderColor: "rgba(0,16,153,0.85)",
+        backgroundColor: "transparent",
+      },
+    ],
+  },
+});
 
 export default Chart;

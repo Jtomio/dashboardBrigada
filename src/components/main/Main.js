@@ -55,6 +55,7 @@ const Main = () => {
               <i className="fa fa-area-chart"></i>
             </div>
             {/* <Chart /> */}
+            <canvas className="line-chart"></canvas>;
           </div>
 
           <div className="charts__right">
